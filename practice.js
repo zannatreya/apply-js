@@ -30,7 +30,7 @@ function inchToFeet(inches) {
 }
 const inches = 24;
 const feet = inchToFeet(inches);
-console.log('the feet is: ', feet);
+console.log('the height is: ' + feet + " feet");
 
 //mile to km
 
@@ -40,7 +40,7 @@ function mileToKm(miles) {
 }
 const miles = 20;
 const km = mileToKm(miles);
-console.log('the km is: ', km);
+console.log('the km is: ' + km + ' miles');
 
 //factorial
 var factorial = 1;
