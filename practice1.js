@@ -72,11 +72,12 @@ function gradeCheck(marks) {
     else {
         console.log("Grade A+");
     }
+    return marks;
 }
 
 let myMarks = 51;
 var myGrade = gradeCheck(myMarks);
-console.log(gradeCheck);
+console.log(myGrade);
 
 //check interest
 
@@ -85,3 +86,16 @@ function checkInterest(principle, time, rate) {
     return simpleInterest;
 }
 console.log(checkInterest(15, 12, 12));
+
+//check digiy among sentence
+
+var sentence = "I am reya.I am hardworking.I am determined.I will be a web developer";
+
+var count = 0;
+for (let i = 0; i < sentence.length; i++) {
+    var letter = sentence[i];
+    if (letter == 'a') {
+        count++;
+    }
+}
+console.log(count);
